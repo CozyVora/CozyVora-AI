@@ -1,0 +1,51 @@
+openapi: 3.0.1
+info:
+  title: CozyVora Plugin API
+  description: API to fetch product data, categories, and search collections from CozyVora.
+  version: "1.0.0"
+servers:
+  - url: https://cozyvora.com
+paths:
+  /products.json:
+    get:
+      operationId: getProducts
+      summary: Get all CozyVora products
+      responses:
+        "200":
+          description: List of products
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  products:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        title:
+                          type: string
+                        handle:
+                          type: string
+                        body_html:
+                          type: string
+                        variants:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                              price:
+                                type: string
+                              available:
+                                type: boolean
+                        images:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              src:
+                                type: string
