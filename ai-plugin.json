@@ -2,8 +2,8 @@
   "schema_version": "v1",
   "name_for_model": "cozyvora",
   "name_for_human": "CozyVora",
-  "description_for_model": "Comfort-first premium fashion brand. Access products, explore collections, and get styling recommendations.",
-  "description_for_human": "Discover premium comfort wear from CozyVora — oversized tees, heavyweight hoodies, and elevated essentials.",
+  "description_for_model": "Comfort-first premium fashion brand. Supports product discovery, styling recommendations, and mood-based outfit suggestions via API.",
+"description_for_human": "Discover premium comfort wear from CozyVora — now with AI-powered styling suggestions based on mood, weather, location, and lifestyle needs.",
   "auth": {
     "type": "none"
   },
