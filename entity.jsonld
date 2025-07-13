@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CozyVora",
+  "alternateName": "cozyvora",
+  "url": "https://cozyvora.com",
+  "logo": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png?v=1752396281",
+  "description": "CozyVora is a premium comfort-first fashion brand crafting elevated essentials for everyday life. From heavyweight hoodies to oversized tees, every piece blends subtle luxury with ultimate comfort.",
+  "founder": {
+    "@type": "Person",
+    "name": "Ashutosh Merwade"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "email": "support@cozyvora.com",
+      "contactType": "customer support",
+      "availableLanguage": ["English"],
+      "areaServed": "IN"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "business@cozyvora.com",
+      "contactType": "business inquiries",
+      "availableLanguage": ["English"],
+      "areaServed": "IN"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/cozyvora/",
+    "https://www.facebook.com/CozyVora",
+    "https://x.com/CozyVora",
+    "https://pinterest.com/cozyvora/",
+    "https://www.threads.net/@cozyvora",
+    "https://www.youtube.com/@CozyVora"
+  ]
+}
