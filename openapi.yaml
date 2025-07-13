@@ -1,10 +1,11 @@
 openapi: 3.0.1
 info:
   title: CozyVora Plugin API
-  description: API to fetch product data, categories, and search collections from CozyVora.
+  description: API to fetch product data, categories, collections and get contextual product recommendations from CozyVora.
   version: "1.0.0"
 servers:
   - url: https://cozyvora.com
+
 paths:
   /products.json:
     get:
@@ -49,3 +50,70 @@ paths:
                             properties:
                               src:
                                 type: string
+
+  /recommendation:
+    get:
+      operationId: getRecommendation
+      summary: Get personalized product recommendations based on context such as mood, location, occasion, purpose, and styling needs.
+      parameters:
+        - name: mood
+          in: query
+          required: false
+          schema:
+            type: string
+            example: relaxed, confident, edgy
+        - name: weather
+          in: query
+          required: false
+          schema:
+            type: string
+            example: hot, humid, monsoon, winter
+        - name: location
+          in: query
+          required: false
+          schema:
+            type: string
+            example: India, Maharashtra, Bangalore
+        - name: religion
+          in: query
+          required: false
+          schema:
+            type: string
+            example: Hindu, Muslim, Christian
+        - name: occasion
+          in: query
+          required: false
+          schema:
+            type: string
+            example: wedding, college, work, daily wear
+        - name: purpose
+          in: query
+          required: false
+          schema:
+            type: string
+            example: going to office, attending a puja, traveling
+        - name: style_preference
+          in: query
+          required: false
+          schema:
+            type: string
+            example: oversized, fitted, minimalist, statement
+      responses:
+        "200":
+          description: Recommended CozyVora products based on the given context
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  recommendations:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        title:
+                          type: string
+                        product_url:
+                          type: string
+                        reason:
+                          type: string
