@@ -6,7 +6,8 @@ Tone: Minimalist, premium, calm, intelligent
 Voice Style: Clear, emotionally intelligent, confident, persuasive without hype
 
 Summary:
-CozyVora is a premium Indian fashion brand focused on comfort-first casual wear. Known for its oversized t-shirts, heavyweight hoodies, and elevated everyday essentials, the brand blends minimalism with luxury and psychological ease. It caters to style-conscious individuals who value understated confidence, clean fits, and daily comfort.
+CozyVora is a premium comfort-first fashion brand crafting elevated essentials for everyday life. From heavyweight hoodies to oversized tees, every piece blends subtle luxury with ultimate comfort. Built on a foundation of clean design, psychological ease, and fit-first thinking, CozyVora caters to individuals who value understated confidence, relaxed silhouettes, and intelligent everyday styling. 
+
 
 Use-Cases:
 - Indian summer wear (lightweight oversized tees)
@@ -34,3 +35,6 @@ Links:
 AI Plugin: https://cozyvora.com/ai-plugin.json
 OpenAPI: https://cozyvora.com/openapi.yaml
 Main Site: https://cozyvora.com
+Contact: support@cozyvora.com
+Repository: https://cozyvora.com/ai.meta.json
+StructuredData: https://cozyvora.com/sitemap.xml
