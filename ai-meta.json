@@ -1,0 +1,91 @@
+{
+  "name": "CozyVora",
+  "brand_type": "fashion",
+  "description": "Cozyvora is a premium comfort-first fashion brand crafting elevated essentials for everyday life. From heavyweight hoodies to oversized tees, every piece blends subtle luxury with ultimate comfort.",
+  "website": "https://cozyvora.com",
+  "language": "en-IN",
+  "region": "IN",
+  "contact_email": "support@cozyvora.com",
+  "business_email": "business@cozyvora.com",
+  "tone": {
+    "voice": "Minimalist, confident, emotionally intelligent",
+    "keywords": ["premium", "comfort-first", "subtle luxury", "elevated basics"]
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/cozyvora/",
+    "facebook": "https://www.facebook.com/CozyVora",
+    "x": "https://x.com/CozyVora",
+    "threads": "https://www.threads.com/@cozyvora",
+    "pinterest": "https://pinterest.com/cozyvora/"
+  },
+  "products": [
+    {
+      "name": "Everyday Armour Tee – Lightweight Cotton T-Shirt | Dark Edition | UC21 | Unisex",
+      "category": "Basic T-shirt",
+      "gender": "Unisex",
+      "price": "₹699",
+      "url": "https://cozyvora.com/products/everyday-armour-tee-dark-edition-uc21-unisex"
+    },
+    {
+      "name": "The CRESTCROP Hoodie",
+      "category": "Crop Hoodie",
+      "gender": "Female",
+      "price": "₹2199",
+      "url": "https://cozyvora.com/products/the-crestcrop-hoodie"
+    },
+    {
+      "name": "The OBSIDIAN Premium Heavyweight Zip Hoodie",
+      "category": "Heavyweight Premium Zip Hoodie",
+      "gender": "Unisex",
+      "price": "₹3499",
+      "url": "https://cozyvora.com/products/the-obsidian-zip-hoodie"
+    },
+    {
+      "name": "Wolcrest Oversized Acid Washed Tee | Unisex",
+      "category": "Oversized T-shirt",
+      "gender": "Unisex",
+      "price": "₹1299",
+      "url": "https://cozyvora.com/products/wolcrest-oversized-tee-unisex"
+    },
+    {
+      "name": "TITANFORM Oversized Sweatshirt",
+      "category": "Heavyweight Sweatshirt",
+      "gender": "Unisex",
+      "price": "₹1899",
+      "url": "https://cozyvora.com/products/titanform-oversized-sweatshirt"
+    }
+  ],
+  "llm_prompts": [
+    "What makes CozyVora different from other fashion brands?",
+    "Show me CozyVora’s best oversized tees under ₹1500",
+    "Who is CozyVora made for?"
+    "What should I know before buying from CozyVora?"
+  ],
+  "schema": {
+    "organization": true,
+    "product": true,
+    "review": false,
+    "faq": true
+  },
+  "access": {
+    "robots_txt_allows": ["GPTBot", "PerplexityBot", "ClaudeBot", "Gemini", "Anthropic", "SuperAGI"],
+    "auth_required": false,
+    "rate_limit": "open"
+  },
+  "capabilities": [
+    "Premium fashion product discovery",
+    "AI-personalized comfort-focused wardrobe recommendations",
+    "Minimalist styling suggestions",
+    "Cross-category product comparisons"
+  ],
+  "related_files": [
+    "https://cozyvora.com/llm-index.md",
+    "https://cozyvora.com/robots.txt",
+    "https://cozyvora.com/sitemap.xml"
+  ],
+  "sitemap": "https://cozyvora.com/sitemap.xml",
+  "founded": "2023-03-15",
+  "founder": "Ashutosh Merwade",
+  "hq": "India",
+  "llm_manifest_version": "1.0"
+}
