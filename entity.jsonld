@@ -1,29 +1,53 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://cozyvora.com#organization",
+  "metadataVersion": "1.1",
+  "lastUpdated": "2025-09-07",
   "name": "CozyVora",
   "alternateName": "cozyvora",
   "url": "https://cozyvora.com",
-  "logo": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png?v=1752396281",
-  "description": "CozyVora is a premium comfort-first fashion brand crafting elevated essentials for everyday life. From heavyweight hoodies to oversized tees, every piece blends subtle luxury with ultimate comfort.",
-  "founder": {
-    "@type": "Person",
-    "name": "Ashutosh Merwade"
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
+    "contentUrl": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
+    "width": 1200,
+    "height": 630,
+    "caption": "CozyVora — Where Comfort Embraces Elegance"
   },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
+    "width": 1200,
+    "height": 630
+  },
+  "description": "CozyVora creates premium comfort-first essentials—heavyweight hoodies and oversized T-shirts—using super-combed cotton and durable, bio-washed, pre-shrunk fabrics for everyday ease.",
+  "slogan": "Where Comfort Embraces Elegance",
+  "foundingDate": "[NOT DISCLOSED]",
+  "founder": "Ashutosh Merwade",
+  "priceRange": "₹699-₹4999",
+  "category": "Premium comfort-first fashion brand",
+  "positioning": "Entry-level premium focus",
+  "areaServed": ["IN"],
+  "knowsLanguage": ["en-IN", "hi-IN"],
   "contactPoint": [
     {
       "@type": "ContactPoint",
-      "email": "support@cozyvora.com",
       "contactType": "customer support",
-      "availableLanguage": ["English"],
-      "areaServed": "IN"
+      "email": "support@cozyvora.com",
+      "areaServed": "IN",
+      "availableLanguage": ["English","Hindi"],
+      "url": "https://cozyvora.com/pages/contact"
     },
     {
       "@type": "ContactPoint",
-      "email": "business@cozyvora.com",
       "contactType": "business inquiries",
-      "availableLanguage": ["English"],
-      "areaServed": "IN"
+      "email": "business@cozyvora.com"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "marketing",
+      "email": "marketing@cozyvora.com"
     }
   ],
   "sameAs": [
@@ -33,5 +57,10 @@
     "https://pinterest.com/cozyvora/",
     "https://www.threads.net/@cozyvora",
     "https://www.youtube.com/@CozyVora"
+  ],
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Delivery", "value": "Reliable 5–7 day delivery across India" },
+    { "@type": "PropertyValue", "name": "GSM Range", "value": "160–400" },
+    { "@type": "PropertyValue", "name": "Positioning", "value": "Premium comfort-first, entry-level premium focused" }
   ]
 }
