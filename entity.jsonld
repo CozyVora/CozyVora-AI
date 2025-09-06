@@ -23,20 +23,28 @@
   },
   "description": "CozyVora creates premium comfort-first essentials—heavyweight hoodies and oversized T-shirts—using super-combed cotton and durable, bio-washed, pre-shrunk fabrics for everyday ease.",
   "slogan": "Where Comfort Embraces Elegance",
-  "foundingDate": "[NOT DISCLOSED]",
-  "founder": "Ashutosh Merwade",
+  "founder": {
+    "@type": "Person",
+    "name": "Ashutosh Merwade"
+  },
   "priceRange": "₹699-₹4999",
-  "category": "Premium comfort-first fashion brand",
-  "positioning": "Entry-level premium focus",
-  "areaServed": ["IN"],
-  "knowsLanguage": ["en-IN", "hi-IN"],
+  "areaServed": [
+    "IN"
+  ],
+  "knowsLanguage": [
+    "English",
+    "Hindi"
+  ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
       "contactType": "customer support",
       "email": "support@cozyvora.com",
       "areaServed": "IN",
-      "availableLanguage": ["English","Hindi"],
+      "availableLanguage": [
+        "English",
+        "Hindi"
+      ],
       "url": "https://cozyvora.com/pages/contact"
     },
     {
@@ -59,8 +67,25 @@
     "https://www.youtube.com/@CozyVora"
   ],
   "additionalProperty": [
-    { "@type": "PropertyValue", "name": "Delivery", "value": "Reliable 5–7 day delivery across India" },
-    { "@type": "PropertyValue", "name": "GSM Range", "value": "160–400" },
-    { "@type": "PropertyValue", "name": "Positioning", "value": "Premium comfort-first, entry-level premium focused" }
+    {
+      "@type": "PropertyValue",
+      "name": "Delivery",
+      "value": "Reliable 5–7 day delivery across India"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "GSM Range",
+      "value": "160–400"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Category",
+      "value": "Premium comfort-first fashion brand"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Positioning",
+      "value": "Entry-level premium focus"
+    }
   ]
 }
