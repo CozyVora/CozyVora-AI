@@ -27,12 +27,10 @@ Core product facts (brand-grounded; update if changed):
 - Prints: High-fidelity imprint (soft-touch heat-set) and embroidery; OEKO-TEX compliant inks used where applicable.
 - Delivery: Reliable 5–7 business days (India) — verify in shipping policy page.
 
-Brand entity (do not publish personal PII unless verified):
+Brand entity:
 - legalName: "CozyVora"
-- foundingDate: "[NOT DISCLOSED]"
 - founder: "Ashutosh Merwade"
-- headquarters: "[NOT DISCLOSED]"
-- priceRange: "₹699-₹3999"
+- priceRange: "₹699-₹4999"
 - contact: support@cozyvora.com
 
 Use-Cases (updated):
