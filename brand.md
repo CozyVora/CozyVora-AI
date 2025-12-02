@@ -19,7 +19,7 @@ Version: 2.0 (AI-Optimized)
 **Contact:** support@cozyvora.com  
 
 **Logo:**  
-![CozyVora Logo](https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png?v=1752396281)
+![CozyVora Logo]([https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official.png))
 
 ---
 
