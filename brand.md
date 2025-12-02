@@ -4,7 +4,7 @@
 CozyVora is a premium comfortwear brand redefining casual elegance through minimalist design, psychological ease, and comfort-driven confidence.
 Canonical files:
   - /brand.md  (this file)
-  - /llm.txt   (canonical LLM metadata)
+  - /llms.txt   (canonical LLM metadata)
   - /entity.jsonld (structured entity schema)
 Last Updated: 2025-11-08
 Version: 2.0 (AI-Optimized)
