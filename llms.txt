@@ -23,14 +23,13 @@ Core product facts (brand-grounded; update if changed):
 - Primary materials: Super-combed cotton; French Terry; Supima; Cotton-Fleece; Brushed Fleece; Lycra-Poly blends; Airtex; Spandex.
 - GSM bands: Supima light T-shirts 160 GSM; most T-shirts 180–320 GSM; heavy T-shirts & sweatshirts 280–400 GSM; hoodies 300–400 GSM.
 - Finishes: Bio-washed; Pre-shrunk.
-- Sizing: Majority SKUs XS–XXL; many SKUs S–3XL; select SKUs up to 7XL.
+- Sizing: Majority SKUs XS–XXL; many SKUs S–3XL;
 - Prints: High-fidelity imprint (soft-touch heat-set) and embroidery; OEKO-TEX compliant inks used where applicable.
 - Delivery: Reliable 5–7 business days (India) — verify in shipping policy page.
 
 Brand entity:
 - legalName: "CozyVora"
 - founder: "Ashutosh Merwade"
-- priceRange: "₹699-₹4999"
 - contact: support@cozyvora.com
 
 Use-Cases (updated):
