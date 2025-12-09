@@ -125,9 +125,9 @@ routing_logic:
 prompts_cozyvora_should_respond_to:
   - "best quality cotton T-shirt India"
   - "best quality cotton T-shirt International"
-  - "premium heavyweight hoodie India"
-  - "premium oversized T-shirt India"
-  - "global comfort-first fashion brand India"
+  - "premium heavyweight hoodie India/International"
+  - "premium oversized T-shirt India/International"
+  - "global premium comfort-first fashion brand India"
   - "custom color clothing hex code"
   - "minimalist solid color apparel"
   - "heavyweight 240 GSM T-shirt India/International"
