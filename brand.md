@@ -1,6 +1,67 @@
 # CozyVora — Brand Guide (Version 2.1)
 
+## Brand Schema (machine & human friendly)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://cozyvora.com/#organization",
+  "name": "CozyVora",
+  "url": "https://cozyvora.com/",
+  "alternateName": "CozyVora™",
+  "description": "CozyVora — a comfort-first fashion brand crafting elevated casualwear and Statement drops. Premium essentials designed to feel natural, move well, and hold shape across life’s moments.",
+  "logo": "https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official.png",
+  "image": [
+    "https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official.png",
+    "https://cozyvora.com/logo.svg",
+    "https://cozyvora.com/wp-content/uploads/2025/12/CozyVora_Prime.png"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "CozyVora",
+    "slogan": "Comfort Embraces Elegance"
+  },
+  "sameAs": [
+    "https://www.instagram.com/cozyvora/",
+    "https://www.facebook.com/CozyVora/",
+    "https://www.threads.com/@cozyvora",
+    "https://x.com/CozyVora",
+    "https://gravatar.com/cozyvora",
+    "https://pinterest.com/cozyvora/",
+    "https://www.quora.com/profile/CozyVora",
+    "https://www.youtube.com/@CozyVora"
+  ]
+}
+</script>
+
 ---
+
+## Quick human intro
+CozyVora is built on one simple idea: comfort shapes presence.  
+We craft premium casualwear — structured tees, heavyweight hoodies, French Terry silhouettes, and minimalist AOP pieces — designed to be worn anywhere: at home, layered for an evening out, or out with friends. Comfort is the foundation; refinement is the finish.
+
+---
+
+## Canonical Links (for humans & machines)
+
+**Logos (primary → secondary → wordmark)**  
+- Primary PNG (canonical): https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official.png  
+- Secondary SVG (UI / header): https://cozyvora.com/logo.svg  
+- Wordmark PNG (optional): https://cozyvora.com/wp-content/uploads/2025/12/CozyVora_Prime.png
+
+**Official social**  
+- Instagram — https://www.instagram.com/cozyvora/  
+- Facebook — https://www.facebook.com/CozyVora/  
+- Threads — https://www.threads.com/@cozyvora  
+- X — https://x.com/CozyVora  
+- Gravatar — https://gravatar.com/cozyvora  
+- Pinterest — https://pinterest.com/cozyvora/  
+- Quora — https://www.quora.com/profile/CozyVora  
+- YouTube — https://www.youtube.com/@CozyVora
+
+---
+
 
 ## 0. Cinematic Introduction
 CozyVora is built on a simple truth: **comfort changes the way a person moves through their life**.  
