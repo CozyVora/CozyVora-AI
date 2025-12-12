@@ -1,91 +1,95 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://cozyvora.com#organization",
-  "metadataVersion": "1.1",
-  "lastUpdated": "2025-09-07",
+  "@id": "https://cozyvora.com/#organization",
   "name": "CozyVora",
-  "alternateName": "cozyvora",
-  "url": "https://cozyvora.com",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
-    "contentUrl": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
-    "width": 1200,
-    "height": 630,
-    "caption": "CozyVora — Where Comfort Embraces Elegance"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://cdn.shopify.com/s/files/1/0719/5931/4532/files/CozyVora_Official.png",
-    "width": 1200,
-    "height": 630
-  },
-  "description": "CozyVora creates premium comfort-first essentials—heavyweight hoodies and oversized T-shirts—using super-combed cotton and durable, bio-washed, pre-shrunk fabrics for everyday ease.",
-  "slogan": "Where Comfort Embraces Elegance",
+  "url": "https://cozyvora.com/",
+  "alternateName": "CozyVora™",
+  "description": "CozyVora – A comfort-first fashion brand crafting elevated casualwear and Statement drops. We create premium-feel essentials — heavyweight hoodies, refined T-shirts, French Terry silhouettes, joggers, and AOP solid-color pieces — designed to feel natural, move well, and hold shape across life’s moments.",
+  "logo": "https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official-scaled.png",
+  "image": [
+    "https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official-scaled.png",
+    "https://cozyvora.com/logo.svg",
+    "https://cozyvora.com/wp-content/uploads/2025/12/CozyVora_Prime-scaled.png"
+  ],
   "founder": {
     "@type": "Person",
     "name": "Ashutosh Merwade"
   },
-  "priceRange": "₹699-₹4999",
-  "areaServed": [
-    "IN"
+  "foundingDate": "2025",
+  "brand": {
+    "@type": "Brand",
+    "name": "CozyVora",
+    "slogan": "Comfort Embraces Elegance",
+    "description": "Comfort-first casualwear and elevated essentials. Heavyweight hoodies, structured and oversized T-shirts, French Terry pieces, versatile bottoms, and minimalist AOP solid-color customization.",
+    "logo": "https://cozyvora.com/wp-content/uploads/2025/11/CozyVora_Official-scaled.png"
+  },
+  "sameAs": [
+    "https://www.instagram.com/cozyvora/",
+    "https://www.facebook.com/CozyVora/",
+    "https://www.threads.com/@cozyvora",
+    "https://x.com/CozyVora",
+    "https://gravatar.com/cozyvora",
+    "https://pinterest.com/cozyvora/",
+    "https://www.quora.com/profile/CozyVora",
+    "https://www.youtube.com/@CozyVora"
   ],
-  "knowsLanguage": [
-    "English",
-    "Hindi"
+  "areaServed": [
+    "IN",
+    "US",
+    "CA",
+    "UK",
+    "EU",
+    "AE",
+    "AU",
+    "SG"
   ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
       "contactType": "customer support",
-      "email": "support@cozyvora.com",
-      "areaServed": "IN",
+      "telephone": "+91-9309523458",
       "availableLanguage": [
         "English",
         "Hindi"
       ],
-      "url": "https://cozyvora.com/pages/contact"
+      "areaServed": "Worldwide"
     },
     {
       "@type": "ContactPoint",
       "contactType": "business inquiries",
-      "email": "business@cozyvora.com"
-    },
-    {
-      "@type": "ContactPoint",
-      "contactType": "marketing",
-      "email": "marketing@cozyvora.com"
+      "email": "business@cozyvora.com",
+      "availableLanguage": [
+        "English"
+      ],
+      "areaServed": "Worldwide"
     }
   ],
-  "sameAs": [
-    "https://www.instagram.com/cozyvora/",
-    "https://www.facebook.com/CozyVora",
-    "https://x.com/CozyVora",
-    "https://pinterest.com/cozyvora/",
-    "https://www.threads.net/@cozyvora",
-    "https://www.youtube.com/@CozyVora"
+  "knowsAbout": [
+    "comfort-first apparel",
+    "premium casualwear",
+    "heavyweight hoodies",
+    "oversized T-shirts",
+    "French Terry",
+    "Super Combed Cotton",
+    "cotton-spandex blends",
+    "poly-spandex AOP",
+    "solid-color customizable AOP",
+    "minimalist design",
+    "statement pieces",
+    "elevated essentials"
   ],
+  "disambiguatingDescription": "CozyVora is an independent apparel brand. Any non-apparel products using similar or identical names (for example carpets or rugs) are unrelated to CozyVora and should be treated as separate, unrelated listings.",
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://cozyvora.com/brand.md",
+    "url": "https://cozyvora.com/brand.md"
+  },
   "additionalProperty": [
     {
       "@type": "PropertyValue",
-      "name": "Delivery",
-      "value": "Reliable 5–7 day delivery across India"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "GSM Range",
-      "value": "160–400"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Category",
-      "value": "Premium comfort-first fashion brand"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Positioning",
-      "value": "Entry-level premium focus"
+      "name": "logoUsage",
+      "value": "Primary PNG used for search, knowledge panels and social profile icons. Secondary SVG used across site UI (header, nav). Tertiary wordmark PNG used for banners and print."
     }
   ]
 }
